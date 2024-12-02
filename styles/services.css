@@ -1,0 +1,107 @@
+.services{
+    padding-bottom: 20px;
+}
+
+.services__text{
+    margin-top: 50px;
+}
+
+.services__text__title{
+    font-size: 150px;
+    color: #3F5643;
+}
+
+.services__text__subtitle{
+    font-size: 224px;
+    color: #3F5643;
+    opacity: 0.1;
+    margin-top: -270px;
+    margin-left: 100px;
+}
+
+.services__content{
+    display: flex;
+    justify-content: space-between;
+}
+
+.services__content__block{
+    max-width: 500px;
+}
+
+.services__content__block__title{
+    font-size: 40px;
+    letter-spacing: 4px;
+    font-weight: 600;
+    margin-top: 70px;
+
+}
+
+.services__content__block__text{
+    list-style-image: url(../images/line.png);
+    font-size: 24px;
+    letter-spacing: 4px;
+    font-weight: 600;
+    line-height: 2;
+    margin-bottom: 40px;
+    padding-left: 20px;
+}
+
+.services__content__block__price{
+    font-size: 40px;
+    font-weight: 600;
+    display: flex;
+    column-gap: 3vw;
+    margin-bottom: 60px;
+}
+
+.services__price{
+    position: relative;
+}
+
+.services__price::after{
+    content: "Стоимость";
+    position: absolute;
+    left: 0;
+    top: 100%;
+    font-size: 18px;
+}
+
+.services__ddl{
+    position: relative;
+}
+
+.services__ddl::after{
+    content: "Сроки";
+    position: absolute;
+    left: 0;
+    top: 100%;
+    font-size: 18px;
+}
+
+.dots__img{
+    width: 100%;
+    height: auto;
+    margin-top: -3%;
+}
+
+.services__btn {
+    background: #C9379C;
+    text-decoration: none;
+    color: #fff;
+    padding: 1.1vw 3.9vw;
+    font-size: 1.3vw;
+    font-weight: 400;
+    font-family: "Cinzel";
+    transition: background-color 0.2s linear;
+    border-radius: 100px;
+    margin-left: 60px;
+  }
+  
+  .services__btn:hover {
+    background-color: #de61b8;
+  }
+
+  .gor__serv__img{
+    width: 100%;
+    height: auto;
+  }

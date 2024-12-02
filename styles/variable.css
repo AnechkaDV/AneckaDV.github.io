@@ -1,0 +1,5 @@
+:root{
+    --title-size: clamp(7vh, 10vw, 10vw);
+    --title-color: #3F5643;
+    --subtitle-size: clamp(7vh, 10vw, 10vw);
+}

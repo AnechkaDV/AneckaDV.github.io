@@ -1,0 +1,38 @@
+@font-face {
+    font-family: "Dance";
+    src: url("../fonts/dance_partner_0.ttf");
+}
+
+.font_Dance {
+    font-family: Dance;
+}
+
+
+@font-face {
+    font-family: "Caravan";
+    src: url("../fonts/Caravan.otf");
+}
+
+.font_Caravan {
+    font-family: Caravan;
+}
+
+
+@font-face {
+    font-family: "Cinzel";
+    src: url("../fonts/cinzel_regular.ttf");
+}
+
+.font_Cinzel {
+    font-family: Cinzel;
+}
+
+
+@font-face {
+    font-family: "Packard";
+    src: url("../fonts/Packard\ Modern.ttf");
+}
+
+.font_Packard {
+    font-family: Packard;
+}
