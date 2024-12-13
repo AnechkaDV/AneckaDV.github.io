@@ -290,6 +290,18 @@
     transform: translate(181%, 11%);
     opacity: 0.2;
   }
+
+  a[href^="mailto:"] {
+    color: #000000;
+  }
+
+  a[href^="tel:"] {
+    color: #000000;
+  }
+
+.information a{
+  color: #000000;
+}
   
   @media (max-width: 850px) {
     .form {

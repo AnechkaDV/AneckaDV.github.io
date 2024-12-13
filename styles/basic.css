@@ -7,3 +7,8 @@
 header {
   background-color: #E8E8E8;
 }
+
+html{
+  scroll-behavior: smooth;
+  scroll-padding-top: var(--header-height);
+}
